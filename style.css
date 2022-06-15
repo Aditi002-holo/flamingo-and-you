@@ -226,6 +226,39 @@ h6 {
     color: #ffd7d8;
 }
 
+@media(max-width:768px) {
+
+    .logo {
+        font-size: 15px;
+    }
+
+    ul li a {
+        font-size: 12px;
+    }
+    .hero .header {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 800px;
+        line-height: 1.1;
+    }
+
+    .container-two h2 {
+        text-align: center;
+    }
+    .container-two .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .boxes .box {
+        padding: 40px 30px;
+    }
+
+}
 
 
 
