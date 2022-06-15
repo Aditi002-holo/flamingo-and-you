@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Josefin+Sans:wght@300;400;600&family=Rubik:wght@300;400;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +8,11 @@
 
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;;
     line-height: 1.2;
     color: #fff;
+    background-color: #f9faf8;
+
 }
 
 /* misc */
@@ -32,17 +36,18 @@ img {
 /* PART-01: Header */
 .container {
     background: #1f2937;
+    margin: 0px auto;
 }
 
 .hero {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0 30px;
 }
 
 .logo {
     color: #f9faf8;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -66,7 +71,7 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -82,15 +87,16 @@ a:hover {
 }
 
 .header h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #f9faf8;
     margin: 10px 0;
 }
 
 .header p {
-    font-size: 16px;
+    font-size: 18px;
     color: #e5e7eb;
     margin: 15px 0;
+    padding-right: 30px;
 }
 
 .btn a{
@@ -99,6 +105,84 @@ a:hover {
     font-size: 12px;
     font-weight: 600;
 }
+
+/* PART 02: Image Display */
+.bg {
+    background-color: #ececec;
+}
+
+.container-two {
+    background-color: #ececec;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    height: 500px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.box {
+    flex: 1;
+    color: #fff;
+    border: 3px solid #ffd7d8;
+    border-radius: 8px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    padding: 80px 80px;
+}
+
+.box.box-1 {
+    background-image: url(./images/flamingo-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box.box-2 {
+    background-image: url(./images/flamingo-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box.box-3 {
+    background-image: url(./images/flamingo-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box.box-4 {
+    background-image: url(./images/flamingo-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h6 {
+    opacity: 0;
+}
+
+.container-two h2 {
+    color: #1f2937;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+
+
+
+
 
 
 
