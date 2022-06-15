@@ -107,7 +107,7 @@ a:hover {
 }
 
 /* PART 02: Image Display */
-.bg {
+.bg-01 {
     background-color: #ececec;
 }
 
@@ -178,6 +178,35 @@ h6 {
     text-transform: uppercase;
     font-size: 32px;
 }
+
+/* PART THREE - QUOTE TEXT */
+
+.bg-02 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.section {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section p {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.section .name {
+    align-self: flex-end;
+}
+
+
 
 
 
